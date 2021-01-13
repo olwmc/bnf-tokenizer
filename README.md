@@ -15,5 +15,5 @@ Can correctly tokenize
 as well as
 
 ```bnf
-<integer_definition> ::= "int "<identifier>" "{<digit>}";"
+<integer_definition> ::= "int "<identifier>" = "{<digit>}";"
 ```
