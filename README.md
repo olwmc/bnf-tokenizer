@@ -6,10 +6,10 @@ Can correctly tokenize
 ```bnf
 <sentence>  ::= <subj> <verb> <obj>
 <subj>      ::= <art> <noun> | "the robot"
+<obj>       ::= <art> <noun> | "two furry dice"
 <art>       ::= "the" | "a"
 <noun>      ::= "dog" | "cat" | "man" | "woman" | "robot"
 <verb>      ::= "bit" | "kicked" | "stroked"
-<obj>       ::= <art> <noun> | "two furry dice"
 ```
 
 as well as
